@@ -5,8 +5,8 @@ import Img from "gatsby-image"
 import Layout from "../../components/layout"
 
 /*
-  1. write query 
-  2. pass data into img component
+  1. write query to get image data
+  2. pass data into Img component
 */
 
 export default () => {

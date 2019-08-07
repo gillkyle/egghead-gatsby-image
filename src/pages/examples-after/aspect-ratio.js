@@ -6,7 +6,8 @@ import Layout from "../../components/layout"
 
 /*
   1. write a query to get image
-  2. spread the returned object  into the fluid prop and override the aspectRatio
+  2. spread the returned object into the fluid prop
+  3. override the aspectRatio with the desired size (1 = original)
 */
 
 export default () => {
