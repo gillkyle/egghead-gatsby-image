@@ -4,6 +4,12 @@ import Img from "gatsby-image"
 
 import Layout from "../../components/layout"
 
+/*
+  1. write a query for sourced image
+  2. add options like maxWidth and quality to the fluid fields arguments
+  3. add a style prop to the Img component 
+*/
+
 export default () => {
   const data = useStaticQuery(graphql`
     query {
@@ -23,7 +29,14 @@ export default () => {
 
   return (
     <Layout>
-      <Img fluid={data.file.childImageSharp.fluid} />
+      <Img
+        style={{
+          height: 250,
+          border: "2px solid rebeccapurple",
+          borderRadius: 5,
+        }}
+        fluid={data.file.childImageSharp.fluid}
+      />
     </Layout>
   )
 }
