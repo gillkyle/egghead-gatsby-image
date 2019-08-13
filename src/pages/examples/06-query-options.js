@@ -37,6 +37,7 @@ export default () => {
           borderRadius: 5,
         }}
         fluid={data.file.childImageSharp.fluid}
+        alt="A corgi smiling happily"
       />
     </Layout>
   )

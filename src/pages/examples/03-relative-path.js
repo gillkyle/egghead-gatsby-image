@@ -29,7 +29,10 @@ export default () => {
   return (
     <Layout>
       <h1>Local file at Relative Path</h1>
-      <Img fluid={data.file.childImageSharp.fluid} />
+      <Img
+        fluid={data.file.childImageSharp.fluid}
+        alt="A corgi smiling happily"
+      />
     </Layout>
   )
 }

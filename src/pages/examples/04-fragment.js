@@ -24,7 +24,10 @@ export default () => {
   return (
     <Layout>
       <h1>Using GraphQL Fragments</h1>
-      <Img fluid={data.file.childImageSharp.fluid} />
+      <Img
+        fluid={data.file.childImageSharp.fluid}
+        alt="A corgi smiling happily"
+      />
     </Layout>
   )
 }

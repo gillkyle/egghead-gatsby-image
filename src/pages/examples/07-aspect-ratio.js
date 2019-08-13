@@ -35,6 +35,7 @@ export default () => {
           ...data.file.childImageSharp.fluid,
           aspectRatio: 1, // override the original returned aspectRatio
         }}
+        alt="A corgi smiling happily"
       />
     </Layout>
   )

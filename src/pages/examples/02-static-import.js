@@ -11,7 +11,7 @@ export default () => {
   return (
     <Layout>
       <h1>Static Import</h1>
-      <img src={`../../corgi.jpg`} />
+      <img src={`../../corgi.jpg`} alt="A corgi smiling happily" />
     </Layout>
   )
 }
