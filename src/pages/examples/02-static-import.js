@@ -10,6 +10,7 @@ import Layout from "../../components/layout"
 export default () => {
   return (
     <Layout>
+      <h1>Static Import</h1>
       <img src={`../../corgi.jpg`} />
     </Layout>
   )

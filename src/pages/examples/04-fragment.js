@@ -4,6 +4,10 @@ import Img from "gatsby-image"
 
 import Layout from "../../components/layout"
 
+/*
+  1. in an existing image query replace the fields in fluid/fixed with an equivalent fragment
+*/
+
 export default () => {
   const data = useStaticQuery(graphql`
     query {
@@ -19,6 +23,7 @@ export default () => {
 
   return (
     <Layout>
+      <h1>Using GraphQL Fragments</h1>
       <Img fluid={data.file.childImageSharp.fluid} />
     </Layout>
   )

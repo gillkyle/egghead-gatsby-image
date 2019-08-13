@@ -15,11 +15,11 @@ export default () => {
       file(relativePath: { eq: "corgi.jpg" }) {
         childImageSharp {
           fluid {
-            base64
             aspectRatio
+            base64
+            sizes
             src
             srcSet
-            sizes
           }
         }
       }
@@ -28,6 +28,7 @@ export default () => {
 
   return (
     <Layout>
+      <h1>Local file at Relative Path</h1>
       <Img fluid={data.file.childImageSharp.fluid} />
     </Layout>
   )

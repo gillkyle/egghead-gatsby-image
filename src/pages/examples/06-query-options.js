@@ -29,6 +29,7 @@ export default () => {
 
   return (
     <Layout>
+      <h1>Image Querying Options</h1>
       <Img
         style={{
           height: 250,

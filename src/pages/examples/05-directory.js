@@ -42,6 +42,7 @@ export default () => {
 
   return (
     <Layout>
+      <h1>Displaying a Directory of Images</h1>
       {images.map(image => (
         <Img
           fluid={image.node.childImageSharp.fluid}

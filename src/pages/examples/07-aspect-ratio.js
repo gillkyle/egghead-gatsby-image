@@ -29,6 +29,7 @@ export default () => {
 
   return (
     <Layout>
+      <h1>Configuring Aspect Ratio</h1>
       <Img
         fluid={{
           ...data.file.childImageSharp.fluid,

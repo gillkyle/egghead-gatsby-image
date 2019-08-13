@@ -11,6 +11,7 @@ import Layout from "../../components/layout"
 export default () => {
   return (
     <Layout>
+      <h1>webpack Import</h1>
       <img src={Dog} />
     </Layout>
   )
